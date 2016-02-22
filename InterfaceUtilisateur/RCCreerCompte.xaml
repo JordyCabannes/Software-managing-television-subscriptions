@@ -1,0 +1,45 @@
+﻿<Page x:Class="TP3_genie_noel.InterfaceUtilisateur.RCCreerCompte"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TP3_genie_noel.InterfaceUtilisateur"
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="1000"
+      Title="RCCreerCompte">
+
+    <Grid Background="White" >
+
+        <Grid Visibility="{Binding Path=Grid2Visible}">
+            <TextBlock Text="Veuillez sélectionner une valeur." Margin="50,50,50,0" FontSize="22"/>
+        </Grid>
+        <Grid Visibility="{Binding Path=GridVisible}">
+            <Label x:Name="label2" Content="Créer un compte" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18.667" FontWeight="Bold"/>
+
+            <Grid Margin="10,61.26,24.226,79.97" Grid.Row="1">
+                <Label x:Name="label3" Content="Création d'un compte pour le client suivant :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                <!--<Label x:Name="Label_NomRaison" Content="Nom Prénom/Raison Social" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top"/>-->
+                <Label x:Name="Label_NomRaison" Content="{Binding Path=NomRaison, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="label4" Content="Choisir le mode de facturation :" HorizontalAlignment="Left" Margin="15,102.864,0,0" VerticalAlignment="Top"/>
+                <ComboBox x:Name="ComboBox_Mode" Margin="210,106.864,439.374,0" VerticalAlignment="Top" SelectedIndex="0">
+                    <ComboBoxItem Content="Mensuel"/>
+                    <ComboBoxItem Content="Annuel"/>
+                </ComboBox>
+                <Border BorderBrush="Black" BorderThickness="1"/>
+
+            </Grid>
+
+            <Button x:Name="Btn_CreerCompte" Content="Créer le compte" HorizontalAlignment="Right" Margin="0,0,228.6,26.4" Grid.Row="1" VerticalAlignment="Bottom" Width="136.4" Height="40" Background="#49C676" FontWeight="Bold" Click="Btn_CreerCompte_Click"/>
+            <Button x:Name="Btn_ModifService" Content="Modifier les&#xD;    services" Margin="10,0,0,26.4" Grid.Row="1" VerticalAlignment="Bottom" Height="40" Background="#FF0A4F82" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Width="104.374" Click="Btn_ModifService_Click"/>
+            <Button x:Name="Btn_ModifEquip" Content=" Modifier les&#xD;&#xA;équipements" Margin="140,0,0,26.4" Grid.Row="1" VerticalAlignment="Bottom" Height="40" Background="#FF0A4F82" Foreground="White" FontWeight="Bold" HorizontalAlignment="Left" Width="105" Click="Btn_ModifEquip_Click"/>
+            <Button x:Name="Btn_CreerCompteProg" Content="         Créer le compte et&#xD;programmer une installation" HorizontalAlignment="Right" Margin="0,0,24.226,26.4" Grid.Row="1" VerticalAlignment="Bottom" Width="190.774" Height="40" Background="#49C676" FontWeight="Bold" Click="Btn_CreerCompteProg_Click"/>
+            <Button x:Name="Btn_Annuler" Content="Annuler" HorizontalAlignment="Right" Margin="0,0,380,26.4" Grid.Row="1" VerticalAlignment="Bottom" Width="75" Height="40" Background="#E17D7D" FontWeight="Bold" Click="Btn_Annuler_Click"/>
+            <Label x:Name="label4_Copy" Content="Numéro du compte :" HorizontalAlignment="Left" Margin="30,242,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label5" Content="Solde :" HorizontalAlignment="Left" Margin="30,273,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="TextBox_Numero" HorizontalAlignment="Left" Height="22" Margin="172,243,0,0"    VerticalAlignment="Top" Width="210"/>
+            <TextBox x:Name="TextBox_Solde" HorizontalAlignment="Left" Height="26" Margin="172,273,0,0"    VerticalAlignment="Top" Width="210"/>
+
+        </Grid>
+
+    </Grid>
+</Page>

@@ -1,0 +1,23 @@
+﻿<Window x:Class="TP3_genie_noel.InterfaceUtilisateur.SelectionnerClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3_genie_noel.InterfaceUtilisateur"
+        mc:Ignorable="d"
+        Title="Sélectionner le client" Height="220" Width="400">
+    <Grid>
+        <Label x:Name="label" Content="Sélectionner le client :" HorizontalAlignment="Left" Margin="100.263,20,0,0" VerticalAlignment="Top" FontSize="18.667"/>
+        <Button x:Name="Btn_OK" Content="OK" HorizontalAlignment="Right" Margin="0,0,90.903,35.4" VerticalAlignment="Bottom" Width="82.697" Height="35" Background="#49C676" Click="Btn_OK_Click"/>
+        <Button x:Name="Btn_Annuler" Content="Annuler" HorizontalAlignment="Left" Margin="90,0,0,35.4" VerticalAlignment="Bottom" Width="82.697" Height="35" Background="#E17D7D" Click="Btn_Annuler_Click"/>
+        <ComboBox x:Name="ComboBox_Client" Margin="25,70,28.6,0" VerticalAlignment="Top" SelectedIndex="0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding NomRaison}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+    </Grid>
+</Window>

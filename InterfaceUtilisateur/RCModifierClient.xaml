@@ -1,0 +1,44 @@
+﻿<Page x:Class="TP3_genie_noel.InterfaceUtilisateur.RCModifierClient"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TP3_genie_noel.InterfaceUtilisateur"
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="1000"
+      Title="RCModifierClient">
+
+    <Grid Background="White">
+        <Label x:Name="label2" Content="Modification du profil client" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18.667" FontWeight="Bold"/>
+
+        <Grid Margin="10,61.26,24.226,79.97" Grid.Row="1">
+            <Border BorderBrush="Black" BorderThickness="1" Margin="0,0,0,0"/>
+
+            <Label x:Name="label13" Content="Modification du client suivant :" HorizontalAlignment="Left" Margin="10,22,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Label_NumCompte" Content="{Binding Path=Numero, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="200,80,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="Label_NomRaison" Content="{Binding Path=NomRaison, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="250,80,0,0" VerticalAlignment="Top"/>
+
+            <Label x:Name="label4" Content="Nom :" HorizontalAlignment="Left" Margin="10,91.764,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label5" Content="Prénom :" HorizontalAlignment="Left" Margin="10,122.724,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label6" Content="Raison sociale :" HorizontalAlignment="Right" Margin="0,91.764,356.91,0" VerticalAlignment="Top"/>
+            <Label x:Name="label7" Content="Adresse :" HorizontalAlignment="Left" Margin="10,0,0,83.77" VerticalAlignment="Bottom" RenderTransformOrigin="0.563,1.695"/>
+            <Label x:Name="label9" Content="Téléphone : " HorizontalAlignment="Left" Margin="10,0,0,21.77" VerticalAlignment="Bottom"/>
+            <Label x:Name="label10" Content="OU" Margin="446,92,451.774,0" VerticalAlignment="Top" FontSize="21.333"/>
+            <Label x:Name="label12" Content="Dans le cas d'une entreprise" HorizontalAlignment="Right" Margin="0,57.724,115.774,0" VerticalAlignment="Top" Opacity="0.5" FontStyle="Italic"/>
+            <Border BorderBrush="Black" BorderThickness="1" d:IsHidden="True"/>
+            <TextBox x:Name="TextBox_Nom" Text="{Binding Path=Nom, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="21.774" Margin="120,92,0,0"    VerticalAlignment="Top" Width="210"/>
+            <TextBox x:Name="TextBox_Prenom" Text="{Binding Path=Prenom, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="25.96" Margin="120,122.724,0,0"    VerticalAlignment="Top" Width="210"/>
+            <TextBox x:Name="TextBox_Adr1" Text="{Binding Path=Adresse, UpdateSourceTrigger=PropertyChanged}" Height="26" Margin="120,0,35.774,82.77"    VerticalAlignment="Bottom"/>
+            <TextBox x:Name="TextBox_Tel" Text="{Binding Path=Telephone, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="26" Margin="120,0,0,20.77"    VerticalAlignment="Bottom" Width="210"/>
+            <TextBox x:Name="TextBox_Raison" Text="{Binding Path=RaisonSociale, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Right" Height="25.724" Margin="0,92,35.774,0"    VerticalAlignment="Top" Width="295"/>
+            <Label x:Name="label4_Copy" Content="Identifiant :" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="label5_Copy" Content="Mot de passe :" HorizontalAlignment="Left" Margin="10,189,0,0" VerticalAlignment="Top"/>
+            <TextBox x:Name="TextBox_Identifiant" Text="{Binding Path=Pseudo, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="22" Margin="120,158,0,0"    VerticalAlignment="Top" Width="210"/>
+            <TextBox x:Name="TextBox_MotDePasse" Text="{Binding  Path=MotDePasse, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Height="26" Margin="120,188,0,0"    VerticalAlignment="Top" Width="210"/>
+        </Grid>
+        <Label x:Name="label11" Content="Dans le cas d'un particulier" HorizontalAlignment="Left" Margin="174.686,119.944,0,0" Grid.Row="1" VerticalAlignment="Top" Opacity="0.5" FontStyle="Italic"/>
+        <Button x:Name="Btn_Enregistrer" Content="Enregistrer" HorizontalAlignment="Right" Margin="0,0,24,20" VerticalAlignment="Bottom" Width="186" Height="40" Background="#49C676" FontWeight="Bold" BorderBrush="Black" Click="Btn_Continuer_Click"/>
+        <Button x:Name="Btn_Annuler" Content="Annuler" HorizontalAlignment="Right" Margin="0,0,242,20" VerticalAlignment="Bottom" Width="95" Height="40" Background="#E17D7D" FontWeight="Bold" Click="Btn_Effacer_Click"/>
+
+    </Grid>
+</Page>

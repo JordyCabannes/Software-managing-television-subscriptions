@@ -1,0 +1,45 @@
+﻿<Page x:Class="TP3_genie_noel.InterfaceUtilisateur.RCProgrammerInstallation"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TP3_genie_noel.InterfaceUtilisateur"
+      mc:Ignorable="d" 
+      d:DesignHeight="520" d:DesignWidth="1000"
+      Title="RCProgrammerInstallation">
+
+    <Grid Background="White">
+
+        <Grid Visibility="{Binding Path=Grid2Visible}">
+            <TextBlock Text="Veuillez sélectionner une valeur." Margin="50,50,50,0" FontSize="22"/>
+        </Grid>
+        <Grid Visibility="{Binding Path=GridVisible}">
+            <Label x:Name="label2" Content="Programmer une installation" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="18.667" FontWeight="Bold"/>
+
+            <Grid Margin="10,61.26,24.226,79.97" Grid.Row="1">
+                <ListBox x:Name="ListBox_Disponible" Margin="25,93.824,0,35.43" HorizontalAlignment="Left" Width="284.803">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Date_programmation}" />
+                                <TextBlock Text="   " />
+                                <TextBlock Text="{Binding Frais}" />
+                                <TextBlock Text=" €" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <Label x:Name="label3" Content="Liste des dates disponibles :" HorizontalAlignment="Left" Margin="88.036,62.864,0,0" VerticalAlignment="Top"/>
+                <Label x:Name="label4" Content="Programmation d'une installation pour :" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+                <Label x:Name="Label_NomRaison" Content="{Binding Path=NomRaison, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top"/>
+                <Border BorderBrush="Black" BorderThickness="1"/>
+
+            </Grid>
+            <Button x:Name="Btn_Exporter" Foreground="White" Margin="10,0,0,25.4" Grid.Row="1" VerticalAlignment="Bottom" Height="40" Background="#FF0A4F82" FontWeight="Bold" HorizontalAlignment="Left" Width="130" Content="Exporter la liste" Click="Btn_Exporter_Click"/>
+            <Button x:Name="Btn_Programmer" Content="Programmer l'installation" HorizontalAlignment="Right" Margin="0,0,24.226,25.4" Grid.Row="1" VerticalAlignment="Bottom" Width="175.774" Height="40" Background="#49C676" FontWeight="Bold" Click="Btn_Programmer_Click"/>
+            <Button x:Name="Btn_Annuler" Content="Annuler" HorizontalAlignment="Right" Margin="0,0,220,25.4" Grid.Row="1" VerticalAlignment="Bottom" Width="75" Height="40" Background="#E17D7D" FontWeight="Bold" Click="Btn_Annuler_Click"/>
+
+        </Grid>
+    </Grid>
+</Page>

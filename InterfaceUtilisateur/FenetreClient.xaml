@@ -1,0 +1,109 @@
+﻿<Window x:Class="TP3_genie_noel.InterfaceUtilisateur.FenetreClient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3_genie_noel.InterfaceUtilisateur"
+        mc:Ignorable="d"
+        Title="Système de gestion CABLOPLUS" Height="600" Width="1000">
+    <Grid>
+        <DockPanel>
+
+            <TabControl Name="tcSample">
+
+                <TabControl.Resources>
+                    <Style TargetType="TabItem">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="TabItem">
+                                    <Grid Name="Panel">
+                                        <ContentPresenter x:Name="ContentSite"
+                                        VerticalAlignment="Center"
+                                        HorizontalAlignment="Center"
+                                        ContentSource="Header"
+                                        Width="100" Height="80"/>
+                                    </Grid>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter TargetName="Panel" Property="Background" Value="#BEE7FD" />
+                                        </Trigger>
+                                        <Trigger Property="IsSelected" Value="False">
+                                            <Setter TargetName="Panel" Property="Background" Value="#094F82" />
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </TabControl.Resources>
+
+                <!--Les menus-->
+                <TabItem>
+                    <TabItem.Header>
+                        <TextBlock Text="Consulter&#xA;   profil"
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="14.667" FontWeight="Bold" Foreground="White" />
+                    </TabItem.Header>
+                    <Frame Source="/InterfaceUtilisateur/ClientAccueil.xaml"/>
+                </TabItem>
+                <TabItem>
+                    <TabItem.Header>
+                        <TextBlock Text="Créer un&#xA; compte"
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="14.667" FontWeight="Bold" Foreground="White" />
+                    </TabItem.Header>
+                    <Frame Source="/InterfaceUtilisateur/ClientAccueil.xaml"/>
+                </TabItem>
+                <TabItem Margin="100,0,-100,0">
+                    <TabItem.Header>
+                        <TextBlock Text="Modifier les&#xA;   services"
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="14.667" FontWeight="Bold" Foreground="White" />
+                    </TabItem.Header>
+                    <Frame Source="/InterfaceUtilisateur/ClientAccueil.xaml"/>
+                </TabItem>
+                <TabItem Margin="100,0,-100,0">
+                    <TabItem.Header>
+                        <TextBlock Text=" Modifier les&#xA;équipements"
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="14.667" FontWeight="Bold" Foreground="White" />
+                    </TabItem.Header>
+                    <Frame Source="/InterfaceUtilisateur/ClientAccueil.xaml"/>
+                </TabItem>
+                <TabItem Margin="-200,0,200,0">
+                    <TabItem.Header>
+                        <TextBlock Text="  Modifier/&#xA;    Fermer&#xA; un compte"
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"
+                                   FontSize="14.667" FontWeight="Bold" Foreground="White" />
+                    </TabItem.Header>
+                    <Frame Source="/InterfaceUtilisateur/ClientAccueil.xaml"/>
+                </TabItem>
+            </TabControl>
+
+        </DockPanel>
+
+        <!--Texte du menu-->
+        <Grid Background="#E1F1FE" Margin="503,2,114,480">
+            <TextBlock Text="Bonjour "
+                       VerticalAlignment="Top" Margin="102,20,-17,0"
+                       FontSize="13" FontWeight="Bold" Foreground="Black" />
+            <TextBlock x:Name="Login" Text="Bonjour "
+                       VerticalAlignment="Top" Margin="180,20,-40,0"
+                       FontSize="13" FontWeight="Bold" Foreground="Black" />
+            <TextBlock Text="Vous êtes connecté en tant que : "
+                       VerticalAlignment="Bottom" Margin="34,0,0,20"
+                       FontSize="12" Foreground="Black" />
+            <TextBlock x:Name="Role" Text="Cliennnnnnt "
+                       VerticalAlignment="Bottom" Margin="226,0,-26,20"
+                       FontSize="12" Foreground="Black" />
+        </Grid>
+
+        <!--Zone de deconnexion-->
+        <Grid Background="#E17D7D" Margin="870,2,-0.4,480.4" PreviewMouseLeftButtonDown="OnPreviewMouseLeftButtonDown">
+            <TextBlock Text="Déconnexion"
+                       VerticalAlignment="Center" HorizontalAlignment="Center"
+                       FontSize="14.667" FontWeight="Bold" Foreground="Black" />
+        </Grid>
+
+    </Grid>
+</Window>
