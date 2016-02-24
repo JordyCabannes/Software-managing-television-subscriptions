@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="jordycabannes" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#10;  &lt;head&gt;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 11px }&#10;      --&gt;&#10;    &lt;/style&gt;&#10;    &#10;  &lt;/head&gt;&#10;  &lt;body&gt;&#10;  &lt;/body&gt;&#10;&lt;/html&gt;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="12.2" Name="TP3_Diagramme_de_classe" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" HighlightConnectorsOfSelectedOrMouseOverShape="false" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PaintConnectorThroughLabel="true" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="65535" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowClassEmptyCompartments="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="false" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UseStateNameTab="false">
+				<DefaultHtmlDocFont Family="Dialog" Size="11" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<OfficeExchangeOptions GenerateBlankModel="false" GenerateTableOfContent="true" InsertPageBreak="true"/>
+			<ORMOptions DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="false" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="TA1g9oqAUCg0BQfU" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="zA1g9oqAUCg0BQfV" LastNumericValue="0" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="zA1g9oqAUCg0BQfW" LastNumericValue="0" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="zA1g9oqAUCg0BQfX" LastNumericValue="0" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="zA1g9oqAUCg0BQfY" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="zA1g9oqAUCg0BQfZ" LastNumericValue="0" ModelType="UserStory" Prefix="US" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType Documentation_plain="" Id="PDVg9oqAUCg0BQWz" Name="boolean" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.036" PmLastModified="2015-12-04T17:15:19.445" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="vDVg9oqAUCg0BQW0" Name="byte" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.037" PmLastModified="2015-12-04T17:15:19.369" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="fDVg9oqAUCg0BQW1" Name="char" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.038" PmLastModified="2015-12-04T17:15:19.435" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="fDVg9oqAUCg0BQW2" Name="double" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.038" PmLastModified="2015-12-04T17:15:19.435" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="_DVg9oqAUCg0BQW3" Name="float" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.039" PmLastModified="2015-12-04T17:15:19.331" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="AjVg9oqAUCg0BQW4" Name="int" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.040" PmLastModified="2015-12-04T17:15:19.440" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="gjVg9oqAUCg0BQW5" Name="long" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.041" PmLastModified="2015-12-04T17:15:19.344" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="QjVg9oqAUCg0BQW6" Name="short" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.042" PmLastModified="2015-12-04T17:15:19.373" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="QjVg9oqAUCg0BQW7" Name="void" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.042" PmLastModified="2015-12-04T17:15:19.373" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<DataType Documentation_plain="" Id="wjVg9oqAUCg0BQW8" Name="string" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:04:47.043" PmLastModified="2015-12-04T17:15:19.309" QualityScore="-1" UserIDLastNumericValue="0"/>
+		<Package Abstract="false" ConnectToCodeModel="1" Documentation_plain="" Id="HCiZ9oqAUCg0BRW9" Leaf="false" Name="SystemeDeGestionCABLOPLUS:Logique" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:44:41.912" PmLastModified="2015-12-13T12:05:53.392" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+			<ToSimpleRelationships>
+				<Dependency Idref="pyKZ9oqAUCg0BRXM" Name=""/>
+				<Dependency Idref="yCByOYqGAqACSAmJ" Name=""/>
+			</ToSimpleRelationships>
+			<MasterView>
+				<Package Idref="7CiZ9oqAUCg0BRW8" Name="SystemeDeGestionCABLOPLUS:Logique"/>
+			</MasterView>
+			<ModelChildren>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="xNIQ9oqAUCg0BQfj" Leaf="false" Name="Client" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:06:33.251" PmLastModified="2015-12-10T20:35:28.228" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="fi0I9oqAUCg0BQi3" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:15:44.510" PmLastModified="2015-12-05T19:12:02.193" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="1WKLsYqAUCg0XAbX" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="pseudo" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T16:34:41.323" PmLastModified="2015-12-10T16:35:01.638" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="IPESEYqGAqACSAk7" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="mot_de_passe" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-09T14:47:15.333" PmLastModified="2015-12-09T14:48:30.409" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="zJkI9oqAUCg0BQix" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:15:37.523" PmLastModified="2015-12-05T18:50:45.117" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="_kUI9oqAUCg0BQi0" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="prenom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:15:39.903" PmLastModified="2015-12-05T20:03:06.102" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="PFfc9oqAUCg0BQs9" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="raison_sociale" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:02:56.316" PmLastModified="2015-12-05T18:50:45.117" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="UXCI9oqAUCg0BQi6" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="adresse" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:16:07.562" PmLastModified="2015-12-05T18:50:45.117" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="TeiI9oqAUCg0BQi9" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="telephone" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:16:09.906" PmLastModified="2015-12-09T12:50:18.025" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="xNIQ9oqAUCg0BQfi" Name="Client"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="93YQ9oqAUCg0BQfs" Leaf="false" Name="Compte" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:06:42.415" PmLastModified="2015-12-10T20:43:20.477" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="Dc2I9oqAUCg0BQjt" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:16:49.840" PmLastModified="2015-12-05T19:12:02.172" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="ff2I9oqAUCg0BQjw" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="mode_de_facturation" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:16:52.926" PmLastModified="2015-12-05T18:50:45.116" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="sBeI9oqAUCg0BQj2" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="solde" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:17:03.245" PmLastModified="2015-12-05T18:50:45.116" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="8uuI9oqAUCg0BQjz" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="total_du_mois" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:16:58.959" PmLastModified="2015-12-05T18:50:45.116" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="IK0VcYqAUCg0XBQw" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="iDClient" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:29:59.812" PmLastModified="2015-12-10T20:43:20.477" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="d3YQ9oqAUCg0BQfr" Name="Compte"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="f4kQ9oqAUCg0BQf1" Leaf="false" Name="ServiceDiffusion" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:06:51.390" PmLastModified="2015-12-10T20:35:28.215" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="uGAo9oqAUCg0BQlO" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:19:22.013" PmLastModified="2015-12-05T18:50:45.088" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="27Ao9oqAUCg0BQlR" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:19:23.995" PmLastModified="2015-12-10T18:46:10.033" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="f4kQ9oqAUCg0BQf0" Name="ServiceDiffusion"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="VnvQ9oqAUCg0BQh6" Leaf="false" Name="Equipement" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:10:27.562" PmLastModified="2015-12-10T20:43:20.476" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="RulI9oqAUCg0BQkZ" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:17:48.130" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="iqVI9oqAUCg0BQkc" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:17:51.697" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="7PtI9oqAUCg0BQkf" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="tarif_mensuel_de_location" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:06.519" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="AX81cYqAUCg0XBT2" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="iDCompte" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:34:40.768" PmLastModified="2015-12-10T20:43:20.476" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="VnvQ9oqAUCg0BQh5" Name="Equipement"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="EV0w9oqAUCg0BQiM" Leaf="false" Name="Employe" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:11:23.912" PmLastModified="2015-12-10T20:56:56.968" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="FYrI9oqAUCg0BQkz" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:35.816" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="Shared" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="NRqSEYqGAqACSAlV" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="pseudo" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-09T14:48:06.956" PmLastModified="2015-12-10T16:35:01.636" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="YOniEYqGAqACSAkj" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="mot_de_passe" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-09T14:46:11.846" PmLastModified="2015-12-10T20:56:56.968" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="_drI9oqAUCg0BQk2" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:38.399" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="7YbI9oqAUCg0BQk5" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="prenom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:39.927" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="15bI9oqAUCg0BQk8" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="adresse" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:42.027" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="747I9oqAUCg0BQk_" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="telephone" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:44.087" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="_97I9oqAUCg0BQlC" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="fonction" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:18:46.655" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="YYPI9oqAUCg0BQlF" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="salaire" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:19:04.454" PmLastModified="2015-12-05T18:50:45.115" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="4V0w9oqAUCg0BQiL" Name="Employe"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="1uzw9oqAUCg0BQia" Leaf="false" Name="Installation" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:14:06.955" PmLastModified="2015-12-10T20:43:20.476" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="mPEo9oqAUCg0BQlo" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:19:57.081" PmLastModified="2015-12-05T18:50:45.114" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="4xko9oqAUCg0BQlr" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="date_programmation" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:19:59.559" PmLastModified="2015-12-05T18:50:45.114" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="jjUo9oqAUCg0BQlu" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="date_realisation" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:20:04.593" PmLastModified="2015-12-05T18:50:45.114" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="7z0o9oqAUCg0BQlx" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="frais" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T17:20:08.823" PmLastModified="2015-12-05T18:50:45.114" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="xejVcYqAUCg0XBR1" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="iDClient" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:32:36.131" PmLastModified="2015-12-10T20:43:20.476" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="Vuzw9oqAUCg0BQiZ" Name="Installation"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="pXB29oqAUCg0BQzQ" Leaf="false" Name="Chaine" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:57:42.437" PmLastModified="2015-12-10T20:35:28.214" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="F_KO9oqAUCg0BQz1" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="numero" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:01:15.752" PmLastModified="2015-12-05T19:12:02.171" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="AjVg9oqAUCg0BQW4" Name="int"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="wrx29oqAUCg0BQzX" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="sigle" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:57:54.371" PmLastModified="2015-12-05T18:50:45.048" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="GvsO9oqAUCg0BQza" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nom" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:00:46.936" PmLastModified="2015-12-05T18:50:45.048" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="F1cO9oqAUCg0BQzd" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="nature" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:00:49.896" PmLastModified="2015-12-05T18:50:45.048" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="ktORLoqAUCg0Cgcp" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="prix" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-05T18:46:06.281" PmLastModified="2015-12-05T18:50:45.048" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="_DVg9oqAUCg0BQW3" Name="float"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="JXB29oqAUCg0BQzP" Name="Chaine"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="BF2O9oqAUCg0BQ0S" Leaf="false" Name="Adresse" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:01:42.944" PmLastModified="2015-12-05T20:01:08.860" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="6P.O9oqAUCg0BQ0e" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="adresse_branchement" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:02:00.599" PmLastModified="2015-12-05T20:01:08.861" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="g9hO9oqAUCg0BQ0h" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="branchee" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T19:02:07.937" PmLastModified="2015-12-05T19:12:02.197" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="PDVg9oqAUCg0BQWz" Name="boolean"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref=".F2O9oqAUCg0BQ0R" Name="Adresse"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="NZzpcYqAUCg0XBJS" Leaf="false" Name="CompteService" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:10:54.124" PmLastModified="2015-12-10T20:43:20.478" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="tbS5cYqAUCg0XBPg" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_compe" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:17:24.269" PmLastModified="2015-12-10T20:19:10.015" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="07K5cYqAUCg0XBPr" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_service" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:17:32.491" PmLastModified="2015-12-10T20:19:10.015" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="1ZzpcYqAUCg0XBJR" Name="CompteService"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="Ze7pcYqAUCg0XBJi" Leaf="false" Name="ServiceChaine" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:09.990" PmLastModified="2015-12-10T20:43:20.466" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="jiFZcYqAUCg0XBOq" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_service" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:14:29.873" PmLastModified="2015-12-10T20:19:10.002" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="OCVZcYqAUCg0XBOt" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_compte" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:14:37.980" PmLastModified="2015-12-10T20:19:10.002" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="pe7pcYqAUCg0XBJh" Name="ServiceChaine"/>
+					</MasterView>
+				</Class>
+				<Class Abstract="false" Active="false" BusinessKeyMutable="true" BusinessModel="false" ConnectToCodeModel="1" Documentation_plain="" Id="7GXpcYqAUCg0XBJw" Leaf="false" Name="CompteChaine" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:21.911" PmLastModified="2015-12-10T20:43:20.471" QualityScore="-1" Root="false" UserIDLastNumericValue="0" Visibility="public">
+					<ModelChildren>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="tTM5cYqAUCg0XBPA" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_compte" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:16:59.437" PmLastModified="2015-12-10T20:19:10.003" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+						<Attribute Abstract="false" Aggregation="None" AllowEmptyName="false" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" HasGetter="false" HasSetter="false" Id="RC85cYqAUCg0XBPV" IsID="false" Leaf="false" Multiplicity="Unspecified" Name="id_chaine" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:17:09.538" PmLastModified="2015-12-10T20:19:10.003" QualityScore="-1" ReadOnly="false" Scope="instance" TypeModifier="" UserIDLastNumericValue="0" Visibility="private" Visible="true">
+							<Type>
+								<DataType Idref="wjVg9oqAUCg0BQW8" Name="string"/>
+							</Type>
+						</Attribute>
+					</ModelChildren>
+					<MasterView>
+						<Class Idref="bGXpcYqAUCg0XBJv" Name="CompteChaine"/>
+					</MasterView>
+				</Class>
+			</ModelChildren>
+		</Package>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="xNIQ9oqAUCg0BQfj" EndRelationshipToMetaModelElement="93YQ9oqAUCg0BQfs" Id="N4k89oqAUCg0BQth" Leaf="false" Name="possède" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:03:39.244" PmLastModified="2015-12-10T19:37:48.348" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="xNIQ9oqAUCg0BQfj" Id="N4k89oqAUCg0BQti" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:03:39.244" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="N4k89oqAUCg0BQtj" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:03:39.244" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="xNIQ9oqAUCg0BQfj" Name="Client"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="93YQ9oqAUCg0BQfs" Id="N4k89oqAUCg0BQtk" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:03:39.244" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="N4k89oqAUCg0BQtl" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:03:39.244" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="93YQ9oqAUCg0BQfs" Name="Compte"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="z4k89oqAUCg0BQtm" Name="possède"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="93YQ9oqAUCg0BQfs" EndRelationshipToMetaModelElement="VnvQ9oqAUCg0BQh6" Id="nIJ89oqAUCg0BQus" Leaf="false" Name="loue" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:05:29.657" PmLastModified="2015-12-04T19:46:39.792" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="93YQ9oqAUCg0BQfs" Id="nIJ89oqAUCg0BQut" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:05:29.657" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="nIJ89oqAUCg0BQuu" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:05:29.657" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="93YQ9oqAUCg0BQfs" Name="Compte"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="VnvQ9oqAUCg0BQh6" Id="nIJ89oqAUCg0BQuv" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:05:29.657" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="nIJ89oqAUCg0BQuw" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:05:29.657" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="VnvQ9oqAUCg0BQh6" Name="Equipement"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="3oJ89oqAUCg0BQux" Name="loue"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="xNIQ9oqAUCg0BQfj" EndRelationshipToMetaModelElement="1uzw9oqAUCg0BQia" Id="k1D89oqAUCg0BQvg" Leaf="false" Name="programme" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:06:21.257" PmLastModified="2015-12-10T20:35:28.218" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="xNIQ9oqAUCg0BQfj" Id="k1D89oqAUCg0BQvh" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:06:21.257" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="k1D89oqAUCg0BQvi" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:06:21.257" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="xNIQ9oqAUCg0BQfj" Name="Client"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="1uzw9oqAUCg0BQia" Id="k1D89oqAUCg0BQvj" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:06:21.257" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="k1D89oqAUCg0BQvk" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:06:21.257" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="1uzw9oqAUCg0BQia" Name="Installation"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="81D89oqAUCg0BQvl" Name="programme"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="EV0w9oqAUCg0BQiM" EndRelationshipToMetaModelElement="93YQ9oqAUCg0BQfs" Id="T7iC9oqAUCg0BQxR" Leaf="false" Name="ouvre" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:08:37.234" PmLastModified="2015-12-04T19:46:39.797" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="EV0w9oqAUCg0BQiM" Id="T7iC9oqAUCg0BQxS" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:08:37.234" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="T7iC9oqAUCg0BQxT" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:08:37.234" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="EV0w9oqAUCg0BQiM" Name="Employe"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="93YQ9oqAUCg0BQfs" Id="T7iC9oqAUCg0BQxU" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:08:37.234" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="T7iC9oqAUCg0BQxV" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-04T18:08:37.234" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="93YQ9oqAUCg0BQfs" Name="Compte"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="qHiC9oqAUCg0BQxW" Name="ouvre"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Ze7pcYqAUCg0XBJi" EndRelationshipToMetaModelElement="pXB29oqAUCg0BQzQ" Id="cfQZcYqAUCg0XBKl" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:57.070" PmLastModified="2015-12-10T20:14:48.876" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Ze7pcYqAUCg0XBJi" Id="cfQZcYqAUCg0XBKm" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:57.070" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="cfQZcYqAUCg0XBKn" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:57.070" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Ze7pcYqAUCg0XBJi" Name="ServiceChaine"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="pXB29oqAUCg0BQzQ" Id="8fQZcYqAUCg0XBKo" JavaCodeAttributeName="" Leaf="false" Multiplicity="1..*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:57.071" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="8fQZcYqAUCg0XBKp" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:11:57.071" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="pXB29oqAUCg0BQzQ" Name="Chaine"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="qfQZcYqAUCg0XBKq"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Ze7pcYqAUCg0XBJi" EndRelationshipToMetaModelElement="f4kQ9oqAUCg0BQf1" Id="54UZcYqAUCg0XBLh" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:12:26.343" PmLastModified="2015-12-10T20:14:48.880" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Ze7pcYqAUCg0XBJi" Id="54UZcYqAUCg0XBLi" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:12:26.343" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="54UZcYqAUCg0XBLj" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:12:26.343" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="Ze7pcYqAUCg0XBJi" Name="ServiceChaine"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="f4kQ9oqAUCg0BQf1" Id="54UZcYqAUCg0XBLk" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:12:26.343" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="54UZcYqAUCg0XBLl" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:12:26.343" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="f4kQ9oqAUCg0BQf1" Name="ServiceDiffusion"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="d4UZcYqAUCg0XBLm"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="7GXpcYqAUCg0XBJw" EndRelationshipToMetaModelElement="pXB29oqAUCg0BQzQ" Id="o_yZcYqAUCg0XBMh" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:06.757" PmLastModified="2015-12-10T20:14:48.890" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="7GXpcYqAUCg0XBJw" Id="o_yZcYqAUCg0XBMi" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:06.757" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="o_yZcYqAUCg0XBMj" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:06.757" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="7GXpcYqAUCg0XBJw" Name="CompteChaine"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="pXB29oqAUCg0BQzQ" Id="o_yZcYqAUCg0XBMk" JavaCodeAttributeName="" Leaf="false" Multiplicity="1..*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:06.757" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="o_yZcYqAUCg0XBMl" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:06.757" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="pXB29oqAUCg0BQzQ" Name="Chaine"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="0_yZcYqAUCg0XBMm"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="7GXpcYqAUCg0XBJw" EndRelationshipToMetaModelElement="93YQ9oqAUCg0BQfs" Id="1nKZcYqAUCg0XBM0" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:10.507" PmLastModified="2015-12-10T20:14:48.893" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="7GXpcYqAUCg0XBJw" Id="1nKZcYqAUCg0XBM1" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:10.507" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="1nKZcYqAUCg0XBM2" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:10.508" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="7GXpcYqAUCg0XBJw" Name="CompteChaine"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="93YQ9oqAUCg0BQfs" Id="NnKZcYqAUCg0XBM3" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:10.508" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="NnKZcYqAUCg0XBM4" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:10.508" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="93YQ9oqAUCg0BQfs" Name="Compte"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="DnKZcYqAUCg0XBM5"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="NZzpcYqAUCg0XBJS" EndRelationshipToMetaModelElement="93YQ9oqAUCg0BQfs" Id="4SaZcYqAUCg0XBNS" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:16.167" PmLastModified="2015-12-10T20:14:48.898" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="NZzpcYqAUCg0XBJS" Id="4SaZcYqAUCg0XBNT" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:16.167" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="4SaZcYqAUCg0XBNU" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:16.167" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="NZzpcYqAUCg0XBJS" Name="CompteService"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="93YQ9oqAUCg0BQfs" Id="4SaZcYqAUCg0XBNV" JavaCodeAttributeName="" Leaf="false" Multiplicity="*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:16.167" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="4SaZcYqAUCg0XBNW" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:16.167" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="93YQ9oqAUCg0BQfs" Name="Compte"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="MSaZcYqAUCg0XBNX"/>
+			</MasterView>
+		</Association>
+		<Association Abstract="false" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="NZzpcYqAUCg0XBJS" EndRelationshipToMetaModelElement="f4kQ9oqAUCg0BQf1" Id="nHaZcYqAUCg0XBNl" Leaf="false" OrderingInProfile="-1" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:18.649" PmLastModified="2015-12-10T20:14:48.898" QualityScore="-1" UserIDLastNumericValue="0" Visibility="Unspecified">
+			<FromEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="NZzpcYqAUCg0XBJS" Id="nHaZcYqAUCg0XBNm" JavaCodeAttributeName="" Leaf="false" Multiplicity="1" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:18.649" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="nHaZcYqAUCg0XBNn" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:18.649" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="NZzpcYqAUCg0XBJS" Name="CompteService"/>
+					</Type>
+				</AssociationEnd>
+			</FromEnd>
+			<ToEnd>
+				<AssociationEnd AggregationKind="None" ConnectToCodeModel="1" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="f4kQ9oqAUCg0BQf1" Id="nHaZcYqAUCg0XBNo" JavaCodeAttributeName="" Leaf="false" Multiplicity="1..*" Name="" Navigable="Navigable" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:18.649" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" Visibility="Unspecified">
+					<Qualifier>
+						<Qualifier Documentation_plain="" Id="nHaZcYqAUCg0XBNp" Name="" PmAuthor="jordycabannes" PmCreateDateTime="2015-12-10T20:13:18.649" QualityScore="-1" UserIDLastNumericValue="0"/>
+					</Qualifier>
+					<Type>
+						<Class Idref="f4kQ9oqAUCg0BQf1" Name="ServiceDiffusion"/>
+					</Type>
+				</AssociationEnd>
+			</ToEnd>
+			<MasterView>
+				<Association Idref="vHaZcYqAUCg0XBNq"/>
+			</MasterView>
+		</Association>
+	</Models>
+</Project>
